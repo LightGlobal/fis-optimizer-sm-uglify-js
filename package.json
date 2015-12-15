@@ -1,7 +1,7 @@
 {
   "name": "fis-optimizer-sm-uglify-js",
   "description": "A optimizer for fis to compress js by using uglify-js.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "fis"
   ],
@@ -28,6 +28,5 @@
   "_npmUser": {
     "name": "2betop",
     "email": "2betop.cn@gmail.com"
-  },
-  "directories": {}
+  }
 }
