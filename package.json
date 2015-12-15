@@ -1,5 +1,5 @@
 {
-  "name": "fis-optimizer-f-uglify-js",
+  "name": "fis-optimizer-sm-uglify-js",
   "description": "A optimizer for fis to compress js by using uglify-js.",
   "version": "0.0.1",
   "keywords": [
@@ -8,7 +8,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LightGlobal/fis-optimizer-f-uglify-js.git"
+    "url": "git+https://github.com/LightGlobal/fis-optimizer-sm-uglify-js.git"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -19,10 +19,6 @@
   "dependencies": {
     "uglify-js": "2.4.15",
     "convert-source-map": "^1.1.2"
-  },
-  "gitHead": "658b419075dfa95e46852d8fac6b164cbe1d086a",
-  "bugs": {
-    "url": "https://github.com/fis-dev/fis-optimizer-uglify-js/issues"
   },
   "_id": "fis-optimizer-uglify-js@0.1.10",
   "_shasum": "9ce3eeaeb60af5d75632ee14cdf4e71de8039b79",
