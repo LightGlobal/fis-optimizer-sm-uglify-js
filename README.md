@@ -1,2 +1,2 @@
-# fis-optimizer-f-uglify-js
-uglify js for f
+# fis-optimizer-sm-uglify-js
+uglify js with source map
