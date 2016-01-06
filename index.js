@@ -40,7 +40,7 @@ function uglify(content, file, conf) {
 }
 
 function getSM(content, file){
-  let comment = content.match(convert.commentRegex);
+  var comment = content.match(convert.commentRegex);
   return comment[0];
 }
 
