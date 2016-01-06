@@ -1,7 +1,7 @@
 {
   "name": "fis-optimizer-sm-uglify-js",
   "description": "A optimizer for fis to compress js by using uglify-js.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": [
     "fis"
   ],

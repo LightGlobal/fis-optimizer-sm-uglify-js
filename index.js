@@ -30,7 +30,7 @@ function uglify(content, file, conf) {
       ret.code = ret.code.replace(/\/\/\# sourceMappingURL\=.*/g, '');
       var hash = file.getHash();
       var filenameWithHash = file.filename + '_' + hash;
-      var smapPath = fis.project.getProjectPath('/sm/' + filenameWithHash + '.map');
+      var smapPath = fis.project.getProjectPath('/sourcemap/' + filenameWithHash + '.map');
       
       fis.util.write(smapPath, ret.map, 'utf-8', false);
 
