@@ -9,7 +9,7 @@ var UglifyJS = require('uglify-js');
 
 var convert = require('convert-source-map');
 //var sm = require('source-map');
-var fis = require('fis3');
+// var fis = require('fis3');
 
 function uglify(content, file, conf) {
   conf.fromString = true;
